@@ -14,7 +14,7 @@ f) 2,10, 12, 16, 17, 18, 19, ____
 num = 1
 
 while True : #condição
-    num = num + 2
+    num = num + 2 # soma de 2 em 2, iniciando em 1 
     if num >= 10:
         num = num - 2
         break
@@ -24,7 +24,7 @@ print(f"Exercicio A) próximo elemento {num}")
 num = 2
 
 while True:
-    num = num * 2
+    num = num * 2 # multiplicação por 2, iniciando em 2
     if num >= 129:
         num = num / 2
         break
@@ -38,7 +38,7 @@ for item in range(100):
         impares.append(item)
 #print(impares)
 for impar in impares:
-    num = num + impar
+    num = num + impar # pega o numero e soma com o numero impar
     if num > 49:
         num = num - impar
         break
@@ -54,7 +54,7 @@ for item in range(12):
 #print(pares)
 for par in pares:
     if par <= 10:
-        num = par ** 2
+        num = par ** 2 # potenciação de pares por 2
     else:
         break
 print(f"Exercicio D) próximo elemento {num}")
@@ -63,9 +63,9 @@ print(f"Exercicio D) próximo elemento {num}")
 fibo = [1,1]
 num = 0
 for item in range(8):
-    num = fibo[-1] + fibo[-2]
+    num = fibo[-1] + fibo[-2] #sequencia de fibonacci
     fibo.append(num)
 print(f"Exercicio E) próximo elemento {fibo[6]}")
 
 #f
-#O resultado é 20
+#O resultado é 20 pois a sequencia é de 1 em 1.
